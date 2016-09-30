@@ -1,36 +1,12 @@
 Drake Generator for Sketch
 ============================
 
-![Drake](https://github.com/ishakasliwal/Drake-Sketch-Plugin/raw/master/data/photos/Drake/42f5ce85.png)
+Upgraded for Sketch 40
 
-*I'm just saying your Sketch files could do better... tell me have you heard that lately?*
-
-Make designing on Sketch fun again by using these Drake photos and lyrics as asset placeholders and lorem ipsum text. This sketch plugin allows you to VERY QUICKLY generate dummy data. Users have found that stakeholders have responded better to avatars of Drake and Hotline Bling lyrics vs. the usual fillers. 
-
-
-## Demo
-#####Installation
-1. Download Zip and Extract it to a folder
-2. In Sketch app `Plugins > Manage Plugins...`
-3. In the Preferences window, click on the cog-wheel icon, and select `Show Plugins Folder` from the dropdown.
-4. Place the extracted folder directly to the Plugins folder (nesting might not work atm)
-
-#####Generating Pictures
-- Create a shape
-- Select shape
-- Go to `Plugins > Drake-Generator > Drake Photos > Generate Drake Photos`
-
-#####Generating Lyrics
-- Create text
-- Select text
-- Go to `Plugins > Drake-Generator > Drake Lyrics > Text > Lyrics > Generate or Replace`
-
-![Demo](https://github.com/ishakasliwal/Drake-Sketch-Plugin/raw/master/tutorial/demo-gif.gif)
-
-
+## Todo
+- Provide more rappers
+- Grab said rappers' photos through an API, will fallback to local images
+- Grab said rappers' lyrics through an API, will fallback to local images
 
 ## Credits
-* [Timur Carpeev's Content Generator Plugin](https://github.com/timuric/Content-generator-sketch-plugin)
-
-![Drake](https://github.com/ishakasliwal/Drake-Sketch-Plugin/raw/master/data/photos/Drake/here-are-memes-from-drakes-hotline-bling-video-0.jpg)
-*Now she want a photo, you already know though.*
+* [Isha Kasliwal's Drake Generator Plugin](https://github.com/ishakasliwal/Drake-Sketch-Plugin)

@@ -1,0 +1,6 @@
+@import 'lib/utility.js'
+@import 'lib/Drake.js'
+
+function onRun(context) {
+    Drake.generatePhotos(context, 'Drake.sketchplugin/Resources/photos/')
+}

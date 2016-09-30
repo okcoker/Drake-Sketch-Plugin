@@ -1,0 +1,8 @@
+@import 'lib/utility.js'
+@import 'lib/Drake.js'
+@import '../../Resources/lyrics/index.js'
+
+function onRun(context) {
+    Drake.generateLyrics(context, lyrics, 'Drake ipsum');
+}
+
