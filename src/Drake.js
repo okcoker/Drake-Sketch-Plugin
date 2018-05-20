@@ -91,6 +91,7 @@ function fillLayerWithImage(layer, imageObj, symbolOverride = null) {
             return false;
         }
 
+        debugger;
         layer.setOverrideValue(symbolOverride, imageObj.image.nsimage);
         return true;
     }
