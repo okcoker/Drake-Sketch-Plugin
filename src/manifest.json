@@ -1,0 +1,30 @@
+{
+    "name": "Drake",
+    "description": "Sketch app plugin for generating dummy Drake content such as photos and lyrics.",
+    "author": "Sean Coker",
+    "homepage": "https://github.com/okcoker/Drake-Sketch-Plugin",
+    "version": "1.0.0",
+    "identifier": "com.seancoker.sketch.drake",
+    "icon": "icon.png",
+    "compatibleVersion": 50,
+    "bundleVersion": 1,
+    "commands": [
+        {
+            "name": "Drake Photos",
+            "identifier": "generatePhotos",
+            "shortcut": "",
+            "script": "./Drake.js",
+            "handler": "generatePhotos"
+        },
+        {
+            "name": "Drake Lyrics",
+            "identifier": "generateLyrics",
+            "shortcut": "",
+            "script": "./Drake.js",
+            "handler": "generateLyrics"
+        }
+    ],
+    "menu": {
+        "items": ["generatePhotos", "generateLyrics"]
+    }
+}
