@@ -116,19 +116,22 @@ function fillLayerWithImage(layer, imageObj, symbolOverride = null) {
 export function generatePhotos(context) {
     const doc = Document.getSelectedDocument();
     const selection = doc.selectedLayers;
-    const imagesCollection = loadImages(context, selection.length);
-
 
     if (!selection.length) {
         UI.message('Select at least one vector shape');
         return;
     }
 
+    const imagesCollection = loadImages(context, selection.length);
+
     for (let i = 0; i < selection.length; i++) {
         const layer = selection.layers[i];
         const imageObj = imagesCollection[i];
 
+        console.log('layer', layer.type);
+
         switch (layer.type) {
+            case 'ShapePath':
             case 'Shape': {
                 fillLayerWithImage(layer, imageObj);
                 break;
