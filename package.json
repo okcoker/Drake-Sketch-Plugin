@@ -6,7 +6,7 @@
     "type": "git",
     "url": "git+https://github.com/okcoker/Drake-Sketch-Plugin.git"
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "engines": {
     "sketch": ">=50.0"
   },
@@ -25,14 +25,14 @@
     "postinstall": "npm run build && skpm-link"
   },
   "devDependencies": {
-    "@skpm/builder": "^0.5.2",
-    "@skpm/fs": "^0.1.2",
-    "@skpm/path": "^0.1.0",
-    "balanced-match": "^1.0.0",
-    "brace-expansion": "^1.1.11",
-    "code-point-at": "^1.1.0",
-    "core-util-is": "^1.0.2",
-    "skpm": "^1.0.15"
+    "@skpm/builder": "0.7.11",
+    "@skpm/fs": "0.2.6",
+    "@skpm/path": "0.1.4",
+    "balanced-match": "1.0.0",
+    "brace-expansion": "2.0.0",
+    "code-point-at": "1.1.0",
+    "core-util-is": "1.0.2",
+    "skpm": "1.0.15"
   },
   "dependencies": {}
 }

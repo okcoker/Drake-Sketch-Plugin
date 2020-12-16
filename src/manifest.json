@@ -3,7 +3,7 @@
     "description": "Sketch app plugin for generating dummy Drake content such as photos and lyrics.",
     "author": "Sean Coker",
     "homepage": "https://github.com/okcoker/Drake-Sketch-Plugin",
-    "version": "1.0.0",
+    "version": "1.0.4",
     "identifier": "com.seancoker.sketch.drake",
     "icon": "icon.png",
     "compatibleVersion": 50,
